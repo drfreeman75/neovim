@@ -34,4 +34,6 @@ return {
   "lambdalisue/suda.vim",
   "lunarvim/synthwave84.nvim",
   "github/copilot.vim",
+-- Ricky Custom
+  "knubie/vim-kitty-navigator",
 }

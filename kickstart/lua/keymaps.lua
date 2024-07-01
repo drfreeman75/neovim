@@ -16,6 +16,12 @@ vim.g.mapleader = " "
 --   command_mode = "c",
 
 -- Normal --
+-- Kitty Integration??
+keymap("n", "<C-Up>", ":KittyNavigateUp<CR>")
+keymap("n", "<C-Down>", ":KittyNavigateDown<CR>")
+keymap("n", "<C-Left>", ":KittyNavigateLeft<CR>")
+keymap("n", "<C-Right>", ":KittyNavigatight<CR>")
+
 -- Better window navigation
 keymap("n", "<C-h>", "<C-w>h", opts)
 keymap("n", "<C-j>", "<C-w>j", opts)
@@ -23,10 +29,10 @@ keymap("n", "<C-k>", "<C-w>k", opts)
 keymap("n", "<C-l>", "<C-w>l", opts)
 
 -- Resize with arrows
-keymap("n", "<C-Up>", ":resize -2<CR>", opts)
-keymap("n", "<C-Down>", ":resize +2<CR>", opts)
-keymap("n", "<C-Left>", ":vertical resize -2<CR>", opts)
-keymap("n", "<C-Right>", ":vertical resize +2<CR>", opts)
+--keymap("n", "<C-Up>", ":resize -2<CR>", opts)
+--keymap("n", "<C-Down>", ":resize +2<CR>", opts)
+--keymap("n", "<C-Left>", ":vertical resize -2<CR>", opts)
+--keymap("n", "<C-Right>", ":vertical resize +2<CR>", opts)
 
 -- Navigate buffers
 keymap("n", "<S-l>", ":bnext<CR>", opts)
