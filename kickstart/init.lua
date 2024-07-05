@@ -277,7 +277,7 @@ require('nvim-treesitter.configs').setup {
   ensure_installed = { 'c', 'cpp', 'go', 'lua', 'python', 'rust', 'tsx', 'javascript', 'typescript', 'vimdoc', 'vim' },
 
   -- Autoinstall languages that are not installed. Defaults to false (but you can change for yourself!)
-  auto_install = false,
+  auto_install = true,
 
   highlight = { enable = true },
   indent = { enable = true },
@@ -576,7 +576,7 @@ vim.o.shortmess = vim.o.shortmess .. 'A'
 
 vim.g.gui_font_default_size = 12
 vim.g.gui_font_size = vim.g.gui_font_default_size
-vim.g.gui_font_face = "Fira Code Retina"
+vim.g.gui_font_face = "MesloLGS NF"
 
 RefreshGuiFont = function()
   vim.opt.guifont = string.format("%s:h%s",vim.g.gui_font_face, vim.g.gui_font_size)

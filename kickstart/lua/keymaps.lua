@@ -14,7 +14,6 @@ vim.g.mapleader = " "
 --   visual_block_mode = "x",
 --   term_mode = "t",
 --   command_mode = "c",
-
 -- Normal --
 -- Kitty Integration??
 keymap("n", "<C-Up>", ":KittyNavigateUp<CR>")
